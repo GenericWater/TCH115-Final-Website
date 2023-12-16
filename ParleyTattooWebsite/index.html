@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <!--link to CSS stylesheet index.css-->
+    <link rel="stylesheet" href="index.css">
+    <!--Use multiple google fonts using this reference link!-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Orbitron">
+    <title>Tattoo Portfolio</title>
+</head>
+<!--Start of webpage-->
+<body>
+    
+    <header> 
+        <h1> Parley Tattoo Co. </h1>
+        <img src="parleylogo.png" alt="Logo">
+    </header>
+        <!--TODO: Image of Logo for company-->
+    <h2> About us </h2>
+    <ul>
+        <li> Walk-ins welcomed!</li>
+        <li> $100 shop minimum fee.</li>
+    </ul>
+    <p> 
+        Welcome to Parley Tattoo Co, where tattoos are for cool kids! Here at Parley, we are extremely passionate about creating meaningful pieces
+        that tell a story. Our talented artists are here to bring your visions to life. We are a primarily client based studio located in margate 
+        Florida focused on providing our clients with a luxury tattoo experience.
+    </p>
+    <a href="https://www.instagram.com/parleytattooco/" target="_blank"> Parley Tattoo Instagram</a>
+    <p><strong>Hours of Operation: </strong>Tuesday - Sunday: 12PM - 10PM | Monday: Closed</p>
+    <p><strong>Address: </strong>2183 N State Rd 7, Margate, FL 33063 </p>
+    <p><strong>Phone Number: </strong>(954) 933-7425 </p>
+
+    <h2> Featured Art </h2>
+    <!--Image slider-->
+    <div id="imageSlider">
+        <button onclick="showPreviousImage();">Previous</button>
+        <img src="tattoo1.png" id="galleryImage">
+        <button onclick="showNextImage();">Next</button>
+    </div>
+
+    <h2> Featured Artists </h2>
+
+    <ul> <!--unordered list for formatting imformation section-->
+        <li><strong>PigmentPirate - TK -</strong> specializes in a wide range of tattoo styles...</li>
+        <button id="BookingTK" onclick="addNewBookingTK();"> Click here for Booking!</button> <!--button will open link in new tab-->
+
+            <div class="social-links">
+                <!-- container for social media links -->
+                <a href="https://www.instagram.com/pigmentpirate/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/tyler.kersting/?paipv=0&eav=AfaN3VqeZOhj0cKjsXBjehiVWbWU9wUSku0jRljXJLaCMMcPscSAEr6Vrhmu3nbyYdQ&_rdr" target="_blank"> Facebook</a>
+                <a href="https://www.tiktok.com/@pigmentpirate/" target="_blank"> TikTok</a>
+            </div>
+    </ul>
+
+    <ul>
+        <li><strong>JD Raw Talent - </strong> is a traveling tattoo artist our of Ft. Lauderdale FL.</li>
+        <button id="BookingJD" onclick="addNewBookingJD();"> Click here for Booking!</button> <!--button will open link in new tab-->
+
+            <div class="social-links">
+                <!-- container for social media links -->
+                <a href="https://www.instagram.com/jdrawtalent/" target="_blank">Instagram</a>
+                <a href="https://www.getrawwtalent.com/" target="_blank"> Merchandise</a>
+                <a href="https://www.facebook.com/jdrawtalent.louis/" target="_blank"> Facebook</a>
+                <a href="https://www.tiktok.com/@jdrawtalent" target="_blank"> TikTok</a>
+            </div>
+    </ul>
+    
+    <ul>
+        <li><strong>Salem - Linkachutattoo -</strong> Tattoo artist from Canada and digital creator. </li>
+        <button id="BookingSalem" onclick="addNewBookingSalem();"> Click here for Booking!</button> <!--button will open link in new tab-->
+
+            <div class="social-links">
+                <!-- container for social media links -->
+                <a href="https://www.instagram.com/linkachutattoo/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/permalink.php?story_fbid=116507463359357&id=112261597117277&paipv=0&eav=AfZrvWGhjzT1nN-w2hdt4_7SY7kLd7LvrL1ONMewr5pTwrUrUvQ3rl_YEyTOuzWiQGw&_rdr" target="_blank"> Facebook Mention</a>
+                <a href="https://www.tiktok.com/@salem.harlow?lang=en" target="_blank"> TikTok</a>
+            </div>
+    </ul>
+
+    <br>
+
+    <footer> <!--Footer text for website-->
+        &copy; 2023 Parley Tattoo Co. All rights reserved.
+    </footer>
+</body>
+</html>

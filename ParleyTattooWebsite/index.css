@@ -1,0 +1,64 @@
+/* Parley Tattoo Website */
+
+h1, h2
+{
+    font-family:"Audiowide", sans-serif;
+}
+
+h3, body, p, li, a, button
+{
+    font-family: "Orbitron", sans-serif;
+}
+
+body
+{
+    background: repeating-linear-gradient(45deg, #98ddca, #f7b5a1 150px);
+    color: #333;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button 
+{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50; /* Adjust the background color */
+    color: #fff; /* Adjust the text color */
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 50%; /* Make it an oval shape */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover /* on hover change color of button */
+{
+    background-color: #45a049;
+}
+
+footer /* Manipulate footer display*/
+{
+    position: fixed; /* anchors to page*/
+    bottom: 0; /* anchors to bottom of page*/
+    width: 100%;
+    text-align: center;
+    /*-right: 200px;*/
+
+    /* Additional display settings besides lesson requirements: */
+    background-image: radial-gradient(rgb(245, 42, 42), rgba(255, 255, 255, 0.938));
+    color:rgb(0, 0, 0);
+}
+
